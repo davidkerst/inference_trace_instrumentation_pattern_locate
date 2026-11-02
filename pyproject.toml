@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "davidkerst-finetuneplat_jd313"
+name = "davidkerst-inference_trace_instrumentation_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告模型微调平台工程师·推理链路的追踪埋点相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://davidkerst.github.io"
-Repository = "https://github.com/davidkerst/finetuneplat_jd313"
-Issues = "https://github.com/davidkerst/finetuneplat_jd313/issues"
+Repository = "https://github.com/davidkerst/inference_trace_instrumentation_pattern_locate"
+Issues = "https://github.com/davidkerst/inference_trace_instrumentation_pattern_locate/issues"
 
 [project.scripts]
-finetuneplat_jd313 = "finetuneplat_jd313:main"
+inference_trace_instrumentation_pattern_locate = "inference_trace_instrumentation_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["finetuneplat_jd313"]
+py-modules = ["inference_trace_instrumentation_pattern_locate"]
